@@ -1,0 +1,33 @@
+@font-face {
+    font-family: kohinoor;
+    src: url(Fonts/Kohinoor.ttc);
+}
+
+header{
+    font-family: kohinoor;
+}
+
+Main{
+    font-family: kohinoor;
+}
+
+footer{
+    font-family: kohinoor;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #1A5800;
+    margin: 20px;
+}
+
+a:hover{
+    background-color: grey;
+    padding: 10px;
+}
+
+
