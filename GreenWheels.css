@@ -3,16 +3,9 @@
     src: url(Fonts/Kohinoor.ttc);
 }
 
-header{
+body{
     font-family: kohinoor;
-}
-
-Main{
-    font-family: kohinoor;
-}
-
-footer{
-    font-family: kohinoor;
+    background color: #E4EDDF; 
 }
 
 li{
@@ -22,12 +15,10 @@ li{
 a{
     text-decoration: none;
     color: #1A5800;
-    margin: 20px;
 }
 
 a:hover{
-    background-color: grey;
-    padding: 10px;
+    color: #F8D7EE;
 }
 
 
