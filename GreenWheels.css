@@ -5,8 +5,9 @@
 
 body{
     font-family: kohinoor;
-    background color: #E4EDDF; 
+    background-image: url(Images/GreenWheelsbaggrund.png)
 }
+
 
 li{
     list-style: none;
@@ -21,4 +22,62 @@ a:hover{
     color: #F8D7EE;
 }
 
+#NavComputer{
+    display: none;
+}
 
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+      
+.topnav #burgermenu {
+    display: none;
+    color: #F8D7EE;
+}
+      
+.topnav a {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A5800;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin: 20px;
+}
+      
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 40px;
+    font-size: 40px;
+}
+      
+.topnav a:hover {
+    color: #F8D7EE;
+}
+
+.burger{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.GWlogomobil{
+    max-width: 120px;
+    margin: 30px;
+}
+
+/*Computer version*/
+@media only screen and (min-width: 1000px){
+
+    #burgermenu{
+        display: none;
+    }
+
+    #NavComputer{
+        display: inline;
+    }
+
+}
