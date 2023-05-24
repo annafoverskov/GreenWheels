@@ -5,9 +5,13 @@
 
 body{
     font-family: kohinoor;
-
+    background-color: #E4EDDF;
 }
 
+footer{
+    background-color: #1F4ACD;
+    height: 800px;
+}
 
 li{
     list-style: none;
@@ -15,11 +19,6 @@ li{
 
 a{
     text-decoration: none;
-    color: #1A5800;
-}
-
-a:hover{
-    color: #F8D7EE;
 }
 
 #NavComputer{
@@ -33,12 +32,11 @@ a:hover{
       
 .topnav #burgermenu {
     display: none;
-    color: #F8D7EE;
 }
       
 .topnav a {
     font-family: 'Montserrat', sans-serif;
-    color: #1A5800;
+    color: #EDB92E; 
     text-align: right;
     text-decoration: none;
     padding: 10px;
@@ -68,6 +66,98 @@ a:hover{
     max-width: 120px;
     margin: 30px;
 }
+
+/*TYPOGRAFI*/
+
+h1{
+    font-size: 50pt;
+    padding-left: 40px;
+    color: #1A5800;
+    margin: 0px;
+}
+
+h2{
+    font-size: 20pt;
+    padding-left: 40px;
+    margin: 0px;
+    color: #1A5800;
+}
+
+h3{
+    font-size: 30pt;
+    text-align: center;
+    padding: 70px;
+    margin: 0px;
+    color: #1A5800;
+}
+
+h4{
+    font-size: 17pt;
+    padding: 40px;
+    text-align: center;
+    margin: 0px;
+    color:#1F4ACD;
+}
+
+h5{
+    font-size: 17pt;
+    padding: 40px;
+    margin: 0px;
+    color:#F8D7EE;
+}
+
+.teknoh5{
+    color: #1F4ACD;
+}
+
+p{
+    font-size: 15pt;
+    padding: 40px;
+    margin: 0px;
+    color: #1A5800;
+}
+
+/*UDREGN BESPARELSER*/
+
+.besparelsesboks{
+    width: 90%;
+    height: 300px;
+    background-color: #F8D7EE;
+}
+
+.udregnknap{
+    display: grid;
+    width: 150px;
+    height: auto;
+    background-color: #1F4ACD;
+    font-style: bold;
+    color: #F8D7EE;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.besparelsesboks2{
+    background-color: #EDB92E;
+    height: auto;
+}
+
+/*VIDEN*/
+.videncard{
+    height: 120px;
+    background-color: #1F4ACD;
+    width: 90%;
+    border-radius: 20px;
+}
+
+/*Nyeste teknologi*/
+.teknocard{
+    height: 120px;
+    background-color: #F8D7EE;
+    width: 90%;
+    border-radius: 20px;
+}
+
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
