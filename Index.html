@@ -8,8 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
     <script src="burgermenu.js" defer></script>
-  </head>
-
   <body>
 
     <header>
@@ -17,10 +15,10 @@
         <div class="topnav">
             <img src="Images/GreenWheelsLogo.svg" class="GWlogomobil"alt="GreenWheelsLogo">
             <div id="burgermenu">
-              <a href="" class="burger">Besparelser</a>
-              <a href="" class="burger">Viden</a>
-              <a href="" class="burger"> Ny teknologi</a>
-              <a href="" class="burger">Vores Vision</a>
+              <a href="#nyttig_viden" class="burger">Besparelser</a>
+              <a href="#nyttig_viden" class="burger">Viden</a>
+              <a href="#ny_teknologi" class="burger"> Ny teknologi</a>
+              <a href="#vision" class="burger">Vores Vision</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="burgermenu()">
              <i class="fa-solid fa-bars"></i>
@@ -36,9 +34,12 @@
         </ul>
 
     </header>
+    
+</div>
 
     <main>
-      <h1>Udregn besparelser</h1>
+
+      <h1 id="besparelser">Udregn besparelser</h1>
       <h2>Find ud af, hvor meget du sparer ved at skifte til en elbil</h2>
       <br>
 
@@ -54,6 +55,9 @@
       <br>
       <br>
       <br>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
       <div class="besparelsesboks2">
         <h3>Hvor meget kan du spare ved at skifte til elbil?</h2>
@@ -73,7 +77,7 @@
       <br>
       <br>
 
-      <h1>Nyttig viden</h1>
+      <h1 id="nyttig_viden">Nyttig viden</h1>
 
       <br>
       <br>
@@ -118,14 +122,14 @@
       <br>
       <br>
 
-      <h1>Nyeste teknologi</h1>
+      <h1 id="ny_teknologi">Nyeste teknologi</h1>
 
       <br>
       <br>
     
     <div class="tekno">
       <div class="teknocard">
-        <h5 class="teknoh5" >Overskrift i card - h4</h5>
+        <h5 class="teknoh5">Interessen for elbiler har overhalet pluginhybridbilerne</h5>
       </div>
 
       <br>
@@ -149,7 +153,7 @@
       <br>
       <br>
 
-      <h1>Vores vision</h1>
+      <h1 id="vision">Vores vision</h1>
       <p>GreenWheels er et nystiftet 
         firma, der har til formål at 
         fremme den grønne omstilling
@@ -168,7 +172,12 @@
     </main>
 
     <footer>
-
+      <img src="Images/GreenWheelsLogoWhite.svg" alt="GreenWheels Logo">
+      <p class="footer">
+        Adresse <br>
+        Telefonnummer <br>
+        Mail
+      </p>
     </footer>
 
   </body>

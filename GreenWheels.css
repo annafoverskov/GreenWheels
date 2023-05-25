@@ -9,6 +9,9 @@ body{
 }
 
 footer{
+    display: grid;
+    justify-content: center;
+    text-align: center;
     background-color: #1F4ACD;
     height: 800px;
 }
@@ -117,6 +120,13 @@ p{
     color: #1A5800;
 }
 
+p.footer{
+    font-size: 17pt;
+    padding: 40px;
+    margin: 0px;
+    color:#F8D7EE;
+}
+
 /*UDREGN BESPARELSER*/
 
 .besparelsesboks{
@@ -138,6 +148,7 @@ p{
     padding: 10px;
     font-size: 25px;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
 .besparelsesboks2{
@@ -156,6 +167,7 @@ p{
     background-color: #1F4ACD;
     width: 450px;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
 .viden{
@@ -169,12 +181,35 @@ p{
     background-color: #F8D7EE;
     width: 450px;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
 .tekno{
     display: grid;
     justify-content: center;
 }
+
+/* PIL TIL TOP */
+
+#topknap {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #topknap:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 
 /*Computer version*/
