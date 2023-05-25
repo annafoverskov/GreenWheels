@@ -120,21 +120,24 @@ p{
 /*UDREGN BESPARELSER*/
 
 .besparelsesboks{
-    width: 90%;
+    width: 450px;
     height: 300px;
     background-color: #F8D7EE;
 }
 
-.udregnknap{
+.bespargrid{
     display: grid;
+    justify-content: center;
+}
+
+.udregnknap{
     width: 150px;
-    height: auto;
     background-color: #1F4ACD;
-    font-style: bold;
     color: #F8D7EE;
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
 }
 
 .besparelsesboks2{
@@ -142,20 +145,35 @@ p{
     height: auto;
 }
 
+.knapgrid{
+    display: grid;
+    justify-content: center;
+}
+
 /*VIDEN*/
 .videncard{
-    height: 120px;
+    height: 110px;
     background-color: #1F4ACD;
-    width: 90%;
+    width: 450px;
     border-radius: 20px;
+}
+
+.viden{
+    display: grid;
+    justify-content: center;
 }
 
 /*Nyeste teknologi*/
 .teknocard{
     height: 120px;
     background-color: #F8D7EE;
-    width: 90%;
+    width: 450px;
     border-radius: 20px;
+}
+
+.tekno{
+    display: grid;
+    justify-content: center;
 }
 
 
