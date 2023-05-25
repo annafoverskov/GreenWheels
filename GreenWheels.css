@@ -10,6 +10,15 @@ body{
     background-size: 100%;
 }
 
+.mellemrum{
+    height: 1000px;
+}
+
+.forside{
+    height: 550px;
+    width: 100%;
+}
+
 footer{
     display: grid;
     justify-content: center;
@@ -26,7 +35,7 @@ footer{
 li{
     list-style: none;
     display: inline-block; 
-    padding: 80px;
+    padding: 90px;
     font-size: 25px;
 }
 
@@ -36,7 +45,8 @@ a{
 }
 
 a:hover{
-    color: #F8D7EE;
+    color:#EDB92E;
+    letter-spacing: 1px;
 }
 
 #NavComputer{
@@ -186,6 +196,7 @@ p.footer{
 .besparelsesboks2{
     background-color: #EDB92E;
     height: auto;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
 .knapgrid{
@@ -194,7 +205,52 @@ p.footer{
 }
 
 /*VIDEN*/
-.videncard{
+.videncard1{
+    display: grid;
+    height: 110px;
+    background-color: #1F4ACD;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+}
+
+.videncard2{
+    display: grid;
+    height: 110px;
+    background-color: #1F4ACD;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+}
+
+.videncard3{
+    display: grid;
+    height: 110px;
+    background-color: #1F4ACD;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+}
+
+.videncard4{
+    display: grid;
+    height: 110px;
+    background-color: #1F4ACD;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+}
+
+.videncard5{
+    display: grid;
+    height: 110px;
+    background-color: #1F4ACD;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+}
+
+.videncard6{
     display: grid;
     height: 110px;
     background-color: #1F4ACD;
@@ -256,7 +312,73 @@ p.footer{
 
     #NavComputer{
         display: inline;
-        padding-left: 110px;
+        padding-left: 40px;
     }
     
+    h1{
+        margin-left: 80px;
+    }
+
+    h2{
+        margin-left: 80px;
+    }
+
+    p{
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size: 25px;
+    }
+
+    .besparelsesboks{
+        width: 1190px;
+    }
+
+    .viden{
+        justify-content: center;
+        grid-column-gap: 100px; 
+        grid-row-gap: 40px;
+    }
+
+    .videncard1{
+        width: 550px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .videncard2{
+        width: 550px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .videncard3{
+        width: 550px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .videncard4{
+        width: 550px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .videncard5{
+        width: 550px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .videncard6{
+        width: 550px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .teknocard{
+        width: 1190px;
+    }
+
+
+
 }
