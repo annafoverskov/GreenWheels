@@ -45,7 +45,7 @@ a{
       
 .topnav a {
     font-family: 'Montserrat', sans-serif;
-    color: #EDB92E; 
+    color:#1A5800; 
     text-align: right;
     text-decoration: none;
     padding: 10px;
@@ -67,7 +67,7 @@ a{
 }
 
 .burger{
-    font-size: 17px;
+    font-size: 25px;
     letter-spacing: 1px;
 }
 
