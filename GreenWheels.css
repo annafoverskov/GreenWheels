@@ -3,9 +3,10 @@
     src: url(Fonts/Kohinoor.ttc);
 }
 
+
 body{
     font-family: kohinoor;
-    background-color: #E4EDDF;
+    background-image: url(Images/GreenWheelsbaggrund.svg);
 }
 
 footer{
@@ -14,6 +15,11 @@ footer{
     text-align: center;
     background-color: #1F4ACD;
     height: 800px;
+}
+
+.logowhite{
+    padding: 50px;
+    width: 200px;
 }
 
 li{
@@ -133,6 +139,7 @@ p.footer{
     width: 450px;
     height: 300px;
     background-color: #F8D7EE;
+    border-radius: 20px;
 }
 
 .bespargrid{
@@ -178,7 +185,7 @@ p.footer{
 
 /*Nyeste teknologi*/
 .teknocard{
-    height: 120px;
+    height: auto;
     background-color: #F8D7EE;
     width: 450px;
     border-radius: 20px;
