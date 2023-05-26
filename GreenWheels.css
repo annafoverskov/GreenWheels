@@ -222,6 +222,36 @@ p.footer{
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
+.videngrid1{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.videngrid2{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.videngrid3{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.videngrid4{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.videngrid5{
+    display: grid;
+    grid-gap: 20px;
+   
+}
+
+.videngrid6{
+    display: grid;
+    grid-gap: 20px;
+}
 
 /*Nyeste teknologi*/
 .teknocard{
@@ -342,43 +372,37 @@ p.footer{
         width: 1190px;
     }
 
-    .viden{
-        justify-content: center;
-        grid-column-gap: 100px; 
-        grid-row-gap: 40px;
-    }
-
-    .videncard1{
+    .videngrid1{
         width: 550px;
         grid-column: 1;
         grid-row: 1;
     }
 
-    .videncard2{
+    .videngrid2{
         width: 550px;
         grid-column: 2;
         grid-row: 1;
     }
     
-    .videncard3{
+    .videngrid3{
         width: 550px;
         grid-column: 1;
         grid-row: 2;
     }
 
-    .videncard4{
+    .videngrid4{
         width: 550px;
         grid-column: 2;
         grid-row: 2;
     }
 
-    .videncard5{
+    .videngrid5{
         width: 550px;
         grid-column: 1;
         grid-row: 3;
     }
 
-    .videncard6{
+    .videngrid6{
         width: 550px;
         grid-column: 2;
         grid-row: 3;
