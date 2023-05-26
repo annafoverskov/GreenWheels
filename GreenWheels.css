@@ -176,6 +176,11 @@ p.footer{
     color: #1A5800;
 }
 
+.videncard{
+    display: flex;
+    columns: 2;
+}
+
 
 /*UDREGN BESPARELSER*/
 
@@ -215,6 +220,8 @@ p.footer{
 
 /*VIDEN*/
 .videncard{
+    display: grid;
+    justify-content: center;
     height: 110px;
     background-color: #1F4ACD;
     width: 450px;
@@ -222,36 +229,6 @@ p.footer{
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
-.videngrid1{
-    display: grid;
-    grid-gap: 20px;
-}
-
-.videngrid2{
-    display: grid;
-    grid-gap: 20px;
-}
-
-.videngrid3{
-    display: grid;
-    grid-gap: 20px;
-}
-
-.videngrid4{
-    display: grid;
-    grid-gap: 20px;
-}
-
-.videngrid5{
-    display: grid;
-    grid-gap: 20px;
-   
-}
-
-.videngrid6{
-    display: grid;
-    grid-gap: 20px;
-}
 
 /*Nyeste teknologi*/
 .teknocard{
@@ -291,13 +268,6 @@ p.footer{
 
 /*REVEAL effelt*/
 /*spørgsmål*/
-.sprg{
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-    color: white;
-  }
   
   .svar{
     color:#F8D7EE;
@@ -306,40 +276,22 @@ p.footer{
     line-height: 1.7em;
   }
   
-  .videncard {
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .active, .videncard2:hover {
-  font-size: 80%;
-  }
-  
-  
   .panel {
     padding: 0 18px;
-    background-color:#F8D7EE;
+    background-color: white;
     border-radius: 20px;
-    width: 520px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
-  
-  
-  .videncard:after {
-    display: grid;
-    justify-content: right;
-    content: '\02795'; 
-    font-size: 10px;
-    color:#F8D7EE;
-    padding: 20px;
-    margin-left: 5px;
-    border-radius: 30%
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+
+
+  .gridting{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
   }
 
 /*Computer version*/
@@ -372,45 +324,23 @@ p.footer{
         width: 1190px;
     }
 
-    .videngrid1{
+    .videncard{
         width: 550px;
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .videngrid2{
-        width: 550px;
-        grid-column: 2;
-        grid-row: 1;
-    }
-    
-    .videngrid3{
-        width: 550px;
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    .videngrid4{
-        width: 550px;
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .videngrid5{
-        width: 550px;
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .videngrid6{
-        width: 550px;
-        grid-column: 2;
-        grid-row: 3;
     }
 
     .teknocard{
         width: 1190px;
     }
+
+    .panel {
+        padding: 0 18px;
+        border-radius: 20px;
+        width: 510px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      
 
 
 
