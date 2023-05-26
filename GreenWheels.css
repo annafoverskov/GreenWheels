@@ -168,6 +168,15 @@ p.footer{
     color:#F8D7EE;
 }
 
+.videncardstekst{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+    margin: 0px;
+    color: #1A5800;
+}
+
+
 /*UDREGN BESPARELSER*/
 
 .besparelsesboks{
@@ -205,63 +214,12 @@ p.footer{
 }
 
 /*VIDEN*/
-.videncard1{
-    display: grid;
+.videncard{
     height: 110px;
     background-color: #1F4ACD;
     width: 450px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.videncard2{
-    display: grid;
-    height: 110px;
-    background-color: #1F4ACD;
-    width: 450px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.videncard3{
-    display: grid;
-    height: 110px;
-    background-color: #1F4ACD;
-    width: 450px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.videncard4{
-    display: grid;
-    height: 110px;
-    background-color: #1F4ACD;
-    width: 450px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.videncard5{
-    display: grid;
-    height: 110px;
-    background-color: #1F4ACD;
-    width: 450px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.videncard6{
-    display: grid;
-    height: 110px;
-    background-color: #1F4ACD;
-    width: 450px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
-}
-
-.viden{
-    display: grid;
-    justify-content: center;
 }
 
 
@@ -302,6 +260,57 @@ p.footer{
 
 
 /*REVEAL effelt*/
+/*spørgsmål*/
+.sprg{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .svar{
+    color:#F8D7EE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.7em;
+  }
+  
+  .videncard {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .active, .videncard2:hover {
+  font-size: 80%;
+  }
+  
+  
+  .panel {
+    padding: 0 18px;
+    background-color:#F8D7EE;
+    border-radius: 20px;
+    width: 520px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  
+  .videncard:after {
+    display: grid;
+    justify-content: right;
+    content: '\02795'; 
+    font-size: 10px;
+    color:#F8D7EE;
+    padding: 20px;
+    margin-left: 5px;
+    border-radius: 30%
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
