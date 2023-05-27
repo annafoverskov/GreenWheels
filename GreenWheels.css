@@ -8,10 +8,32 @@ body{
     font-family: kohinoor;
     background-image: url(Images/GreenWheelsbaggrund.svg);
     background-size: 100%;
+    --scrollbarBG: #1F4ACD;
+    --thumbBG: #90A4AE;
+  
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .mellemrum{
-    height: 1000px;
+    height: 900px;
+
+}
+
+.lilleboks{
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #F8D7EE;
+    margin-left: 200px;
+}
+
+#lillefakta{
+    margin: 0px;
 }
 
 .forside{
@@ -150,6 +172,10 @@ h5{
     color:#F8D7EE;
 }
 
+h5:hover{
+    color:#1F4ACD;
+}
+
 .teknoh5{
     color: #1F4ACD;
 }
@@ -176,8 +202,8 @@ p.footer{
     color:#1A5800;
 }
 
-.videncard{
- 
+.videncard:hover{
+   background-color:#F8D7EE
 }
 
 
