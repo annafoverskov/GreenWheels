@@ -173,13 +173,14 @@ p.footer{
     line-height: 30px;
     padding: 30px;
     margin: 0px;
-    color: #1A5800;
+    color:#1A5800;
 }
 
 .videncard{
-    display: flex;
-    columns: 2;
+ 
 }
+
+
 
 
 /*UDREGN BESPARELSER*/
