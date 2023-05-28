@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
     <script src="burgermenu.js" defer></script>
+    <script src="kontaktform.js" defer></script>
   <body>
 
     <header>
@@ -24,7 +25,7 @@
              <i class="fa-solid fa-bars"></i>
             </a>
         </div>
-          
+
           <ul id="NavComputer">
             <li><a href="#beregn">Sammenlign</a></li>
             <li><a href="#nyttig_viden">Viden</a></li>
@@ -33,7 +34,7 @@
             <li><a href="#vision">Vores vision</a></li>
           </ul>
     </header>
-    
+
 </div>
 
     <main>
@@ -63,15 +64,15 @@
       <div id="beregn" class="besparelsesboks2">
         <h3>Hvor meget kan du spare ved at skifte til elbil?</h2>
         <h2>Så meget kan du spare i CO2 udslip:</h2>
-        <p>En bilejer, af fossilt brændstof, 
-          der kører 200 - 300 km om 
-          ugen, sparer i gennemsnit x 
-          tons CO2 udslip pr. år, ved at 
+        <p>En bilejer, af fossilt brændstof,
+          der kører 200 - 300 km om
+          ugen, sparer i gennemsnit x
+          tons CO2 udslip pr. år, ved at
           skifte til elbil</p>
         <h2>Så meget kan du spare i drift:</h2>
-        <p>En bilejer, af fossilt brændstof, 
-          der kører 200 - 300 km om 
-          ugen, sparer i gennemsnit xx 
+        <p>En bilejer, af fossilt brændstof,
+          der kører 200 - 300 km om
+          ugen, sparer i gennemsnit xx
           kr pr. år, ved at skifte til elbil</p>
       </div>
 
@@ -85,7 +86,7 @@
       <br>
       <br>
 
-     
+
       <div class="gridting">
         <div class="flex">
           <div class="videncard"><h5>Rækkeviddeangst?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -102,8 +103,8 @@
           </div>
           </div>
         </div>
-        
-        
+
+
           <div>
             <div class="videncard"><h5>Elbilen udleder mindre Co2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
@@ -121,7 +122,7 @@
               </div>
               </div>
           </div>
-        
+
             <div>
               <div class="videncard"><h5>Opladningsinfrastruktur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
@@ -130,7 +131,7 @@
               </div>
               </div>
             </div>
-        
+
             <div>
               <div class="videncard"><h5>Elbiler er billigere i længden &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
@@ -139,7 +140,7 @@
               </div>
               </div>
             </div>
-        
+
             <div>
               <div class="videncard"><h5>Batterilevetid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
@@ -161,7 +162,7 @@
 
       <br>
       <br>
-    
+
     <div class="tekno">
       <div class="teknocard">
         <h5 class="teknoh5">Interessen for elbiler har overhalet pluginhybridbilerne</h5>
@@ -195,21 +196,47 @@
       <br>
 
       <h1 id="vision">Vores vision</h1>
-      <p>GreenWheels er et nystiftet 
-        firma, der har til formål at 
+      <p>GreenWheels er et nystiftet
+        firma, der har til formål at
         fremme den grønne omstilling
-         ved at få flere danskere til at 
+         ved at få flere danskere til at
         skifte til elbiler.</p>
 
-        <p>I GreenWheels er det vores 
-          vision er at skubbe på den 
-          grønne omstilling ved at få 
+        <p>I GreenWheels er det vores
+          vision er at skubbe på den
+          grønne omstilling ved at få
           flere til at skifte til en elbil.</p>
-        
+
         <br>
         <br>
         <br>
-   
+
+        <!-- (Johanna start) -->
+      <h7>Har du brug for en snak omkring elbiler, <br> eller har du
+blot spørgsmål, så tøv ikke med at kontake os!</h7>
+
+      <form id="contact-form">
+
+        <label for="navn">Fulde navn:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="tlfnr">Telefonnummer:</label>
+        <input type="tlfnr" id="tlfnr" name="tlfnr"><br><br>
+
+
+        </select>
+
+        <label for="kontakt">Hvordan skal vi kontakte dig?</label>
+        <select id="konSelect" onchange="">
+          <option id="konOption"></option>
+
+        </select>
+      </form>
+    <!-- (Johanna slut) -->
+
     </main>
 
     <footer>
