@@ -3,16 +3,10 @@
     src: url(Fonts/Kohinoor.ttc);
 }
 
-
 body{
     font-family: kohinoor;
     background-image: url(Images/GreenWheelsbaggrund.svg);
     background-size: 100%;
-    --scrollbarBG: #1F4ACD;
-    --thumbBG: #90A4AE;
-  
-    scrollbar-width: thin;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
 html {
