@@ -3,6 +3,7 @@
     src: url(Fonts/Kohinoor.ttc);
 }
 
+
 body{
     font-family: kohinoor;
     background-image: url(Images/GreenWheelsbaggrund.svg);
@@ -50,7 +51,7 @@ footer{
 
 li{
     list-style: none;
-    display: inline-block; 
+    display: inline-block;
     padding: 90px;
     font-size: 25px;
 }
@@ -73,21 +74,21 @@ a:hover{
     overflow: hidden;
     position: relative;
 }
-      
+
 .topnav #burgermenu {
     display: none;
 }
-      
+
 .topnav a {
     font-family: 'Montserrat', sans-serif;
-    color:#1A5800; 
+    color:#1A5800;
     text-align: right;
     text-decoration: none;
     padding: 10px;
     display: block;
     margin: 20px;
 }
-      
+
 .topnav a.icon {
     display: block;
     position: absolute;
@@ -96,7 +97,7 @@ a:hover{
     margin: 40px;
     font-size: 40px;
 }
-      
+
 .topnav a:hover {
     color: #F8D7EE;
 }
@@ -127,6 +128,16 @@ h1{
 
 h2{
     font-size: 20pt;
+    padding-left: 40px;
+    margin: 0px;
+    color: #1A5800;
+}
+
+h7{
+    display: grid;
+    justify-content: center;
+    font-size: 20pt;
+    text-align: center;
     padding-left: 40px;
     margin: 0px;
     color: #1A5800;
@@ -281,7 +292,7 @@ p.footer{
     border-radius: 50%;
     font-size: 40px;
 }
-  
+
   #topknap:hover {
     color: #F8D7EE;
   }
@@ -289,14 +300,14 @@ p.footer{
 
 /*REVEAL effelt*/
 /*spørgsmål*/
-  
+
   .svar{
     color:#F8D7EE;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.7em;
   }
-  
+
   .panel {
     padding: 0 18px;
     background-color: white;
@@ -315,6 +326,45 @@ p.footer{
   align-items: center;
   }
 
+  /* Mine oplysninger starter her (Johanna)*/
+
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+    background-color: #F8D7EE;
+    border-radius: 10px;
+    color: #1A444D;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #1F4ACD;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tlfnr"],
+  select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+
+  #contact-form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+    /* Mine oplysninger slutter her*/
+
 /*Computer version*/
 @media only screen and (min-width: 1000px){
 
@@ -326,13 +376,17 @@ p.footer{
         display: inline;
         padding-left: 40px;
     }
-    
+
     h1{
         margin-left: 80px;
     }
 
     h2{
         margin-left: 80px;
+    }
+
+    h7{
+        font-size: 30pt;
     }
 
     p{
@@ -361,7 +415,7 @@ p.footer{
         overflow: hidden;
         transition: max-height 0.2s ease-out;
       }
-      
+
 
 
 
