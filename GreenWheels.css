@@ -288,7 +288,7 @@ p.footer{
 
 .teknocard{
     display: grid;
-    justify-content: ;
+    justify-content: center;
     height: auto;
     background-color: #F8D7EE;
     width: 450px;
