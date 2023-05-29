@@ -304,26 +304,26 @@ p.footer{
 .datotilevent{ 
     grid-column: 1;
     padding: 0;
+    margin-left: 37px;
 }
 
 .tidtilevent{ 
     grid-column: 1;
-    padding: 0;
+    padding: 0; 
+    margin-left: 37px;
 }
 
-.boksrundtomcountdown{
-    width: 500px;
-    grid-column: 2;
-    grid-row: 1;
-}
 
 .starter{ 
     grid-column: 1;
+    color: #EDB92E; 
+    margin-left: 37px;
 }
 
 #countdownevent{ 
     font-size: 45px; 
     color: #1F4ACD;
+    margin-left: 37px;
 
 }
 
