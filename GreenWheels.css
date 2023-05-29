@@ -287,6 +287,8 @@ p.footer{
 
 
 .teknocard{
+    display: grid;
+    justify-content: ;
     height: auto;
     background-color: #F8D7EE;
     width: 450px;
@@ -301,10 +303,12 @@ p.footer{
 
 .datotilevent{ 
     grid-column: 1;
+    padding: 0;
 }
 
 .tidtilevent{ 
     grid-column: 1;
+    padding: 0;
 }
 
 .boksrundtomcountdown{
@@ -318,7 +322,9 @@ p.footer{
 }
 
 #countdownevent{ 
-    font-size: 45px;
+    font-size: 45px; 
+    color: #1F4ACD;
+
 }
 
 
