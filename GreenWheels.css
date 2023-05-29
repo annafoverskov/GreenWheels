@@ -261,8 +261,31 @@ p.footer{
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
 }
 
-
+/*Mathilde*/
 /*Nyeste teknologi*/
+.minigridboksevent{ 
+    height: auto; 
+    width: 900px;
+}
+
+.miniindenievent{ 
+    height: auto; 
+    width: 900px;
+}
+
+.nyteknologievent{ 
+    grid-template-columns: auto auto;
+    height: auto;
+    width: 850px;
+    column-gap: 40px;
+}
+
+.udenominfo{ 
+    height: auto; 
+    width: auto; 
+}
+
+
 .teknocard{
     height: auto;
     background-color: #F8D7EE;
@@ -274,7 +297,31 @@ p.footer{
 .tekno{
     display: grid;
     justify-content: center;
+} 
+
+.datotilevent{ 
+    grid-column: 1;
 }
+
+.tidtilevent{ 
+    grid-column: 1;
+}
+
+.boksrundtomcountdown{
+    width: 500px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.starter{ 
+    grid-column: 1;
+}
+
+#countdownevent{ 
+    font-size: 45px;
+}
+
+
 
 /* PIL TIL TOP */
 
