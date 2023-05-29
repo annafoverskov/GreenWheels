@@ -263,37 +263,16 @@ p.footer{
 
 /*Mathilde*/
 /*Nyeste teknologi*/
-.minigridboksevent{ 
-    height: auto; 
-    width: 900px;
-}
 
-.miniindenievent{ 
-    height: auto; 
-    width: 900px;
-}
-
-.nyteknologievent{ 
-    grid-template-columns: auto auto;
-    height: auto;
-    width: 850px;
-    column-gap: 40px;
-}
-
-.udenominfo{ 
-    height: auto; 
-    width: auto; 
-}
 
 
 .teknocard{
-    display: grid;
-    justify-content: center;
     height: auto;
     background-color: #F8D7EE;
-    width: 450px;
+    width: 600px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
+    padding-bottom: 30px;
 }
 
 .tekno{
@@ -322,9 +301,27 @@ p.footer{
 
 #countdownevent{ 
     font-size: 45px; 
-    color: #1F4ACD;
-    margin-left: 37px;
+    color:#F8D7EE;
+    text-align:center
 
+}
+
+.mathildesbox{ 
+    display: grid;
+    justify-content: center;
+    background-color:#1F4ACD; 
+    width: 370px;
+    height: 50px;
+    padding-top: 10px;  
+    padding-bottom: 20px;
+    border-radius: 20px; 
+    
+}
+
+.mathildegrid{
+    display: grid; 
+    justify-content: center;
+    padding-top: 20px;
 }
 
 
@@ -452,13 +449,30 @@ p.footer{
         width: 1190px;
     }
 
-    .videncard{
+    .videncard{ 
+
         width: 550px;
     }
 
+/*Mathilde*/
     .teknocard{
-        width: 1190px;
+        width: 1190px; 
+        padding-left: 40px; 
+        margin-left: 100px;  
     }
+    
+    .tekno{
+    display: inline;
+    padding-left: 40px;
+    } 
+    
+    #countdownevent{ 
+        font-size: 45px; 
+        color:#F8D7EE;
+        text-align:center
+    
+    }
+
 
     .panel {
         padding: 0 18px;
