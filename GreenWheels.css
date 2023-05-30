@@ -12,7 +12,7 @@ body{
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .mellemrum{
     height: 900px;
@@ -114,7 +114,6 @@ a:hover{
 }
 
 /*TYPOGRAFI*/
-
 h1{
     font-size: 50pt;
     padding-left: 40px;
@@ -202,7 +201,6 @@ p.footer{
     margin: 0px;
     color:#1A5800;
     max-width: 450px;
-
 }
 
 .videncard:hover{
@@ -271,7 +269,6 @@ p.footer{
 
 /*Mathilde*/
 /*Nyeste teknologi*/
-
 .teknocard{
     height: auto;
     background-color: #F8D7EE;
@@ -309,7 +306,6 @@ p.footer{
     font-size: 45px;
     color:#F8D7EE;
     text-align:center
-
 }
 
 .mathildesbox{
@@ -321,7 +317,6 @@ p.footer{
     padding-top: 10px;
     padding-bottom: 20px;
     border-radius: 20px;
-
 }
 
 .mathildegrid{
@@ -329,6 +324,7 @@ p.footer{
     justify-content: center;
     padding-top: 20px;
 }
+/*Mathilde slutter*/
 
 /* PIL TIL TOP */
 
@@ -347,9 +343,9 @@ p.footer{
     font-size: 40px;
 }
 
-  #topknap:hover {
+#topknap:hover {
     color: #F8D7EE;
-  }
+}
 
 .logo{
   width: 150px;
@@ -359,35 +355,34 @@ p.footer{
 /*REVEAL effelt*/
 /*spørgsmål*/
 
-  .svar{
+.svar{
     color:#F8D7EE;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.7em;
     width: 450px;
-  }
+}
 
-  .panel {
+.panel {
     padding: 0 18px;
     background-color: white;
     border-radius: 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
 
 
-  .gridting{
+.gridting{
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
   justify-content: center;
   align-items: center;
-  }
+}
 
   /* kontaktformular starter her (Johanna)*/
-
-  form {
+form {
     max-width: 700px;
     margin: 0 auto;
     padding: 40px;
@@ -395,19 +390,20 @@ p.footer{
     background-color: #F8D7EE;
     border-radius: 10px;
     color: #1A444D;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-bottom: 5px;
     font-weight: normal;
     color: #1F4ACD;
-  }
+}
 
   input[type="text"],
   input[type="email"],
   input[type="tlfnr"],
-  select{
+
+select{
     width: 100%;
     padding: 10px;
     border: none;
@@ -416,92 +412,86 @@ p.footer{
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: inset 1px 1px 1px 1px rgb(129, 129, 129);
-  }
+}
 
-
-  #contact-form{
+#contact-form{
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-    /* kontaktformular slutter her*/
+}
+/* kontaktformular slutter her*/
+
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
 
 
-    .lilleboks{
-        width: 600px;
-        height: 200px;
-        margin-left: 200px;
-    }
+.lilleboks{
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+}
 
-    .topnav{
-        display: none;
-    }
+.topnav{
+    display: none;
+}
 
-    .NavComputer{
-        padding-left: 40px;
-        display: inline-block;
-        width: 100%;
-    }
+.NavComputer{
+    padding-left: 40px;
+    display: inline-block;
+    width: 100%;
+}
 
-    h1{
-        margin-left: 80px;
-    }
+h1{
+     margin-left: 80px;
+}
 
-    h2{
-        margin-left: 80px;
-    }
+ h2{
+    margin-left: 80px;
+}
 
-    h7{
-        font-size: 30pt;
-    }
+h7{
+    font-size: 30pt;
+}
 
-    p{
-        margin-left: 80px;
-        margin-right: 80px;
-        font-size: 25px;
-    }
+p{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 25px;
+}
 
-    .besparelsesboks{
-        width: 1190px;
-    }
+.besparelsesboks{
+    width: 1190px;
+}
 
-    .videncard{
-
-        width: 550px;
-    }
+.videncard{
+    width: 550px;
+}
 
 /*Mathilde*/
-    .teknocard{
-        width: 1190px;
-        padding-left: 40px;
-        margin-left: 100px;
-    }
+.teknocard{
+    width: 1190px;
+    padding-left: 40px;
+    margin-left: 100px;
+}
 
-    .tekno{
+.tekno{
     display: inline;
     padding-left: 40px;
-    }
+}
 
-    #countdownevent{
-        font-size: 45px;
-        color:#F8D7EE;
-        text-align:center
+#countdownevent{
+    font-size: 45px;
+    color:#F8D7EE;
+    text-align:center
+}
+/*Mathilde slut*/
 
-    }
-
-
-    .panel {
-        padding: 0 18px;
-        border-radius: 20px;
-        width: 510px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
-      }
-
-
-
-
+.panel {
+    padding: 0 18px;
+    border-radius: 20px;
+    width: 510px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
 }
