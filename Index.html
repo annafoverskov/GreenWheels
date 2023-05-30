@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e731c0393a.js" crossorigin="anonymous"></script>
     <script src="anna.js" defer></script>
-    <script src="kontaktform.js" defer></script> 
+    <script src="kontaktform.js" defer></script>
     <script src="countdown.js" defer></script>
   <body>
 
@@ -30,7 +30,7 @@
           <ul class="NavComputer">
             <li><a href="#besparelser">Sammenlign</a></li>
             <li><a href="#nyttig_viden">Viden</a></li>
-            <img src="Images/GreenWheelsLogo.svg" class="GWlogo" alt="GreenWheelsLogo">
+            <li class="logo"><img src="Images/GreenWheelsLogo.svg" class="GWlogo" alt="GreenWheelsLogo"></li>
             <li><a href="#ny_teknologi">Ny teknologi</a></li>
             <li><a href="#vision">Vores vision</a></li>
           </ul>
@@ -48,7 +48,7 @@
 
       <div class="bespargrid">
         <div class="besparelsesboks">
-        <h4>Hvor mange km kører du om ugen?</h4>
+        <h4>Hvor mange km kører du om dagen?</h4>
         <div id="streggrid"><div class="streg"><i class="fa-solid fa-car-side" style="color: #2c4063;"></i></div></div>
         </div>
       </div>
@@ -66,16 +66,13 @@
       <div id="beregn" class="besparelsesboks2">
         <h3>Hvor meget kan du spare ved at skifte til elbil?</h3>
         <h2>Så meget kan du spare i CO2 udslip:</h2>
-        <p>En bilejer, af fossilt brændstof,
-          der kører 200 - 300 km om
-          ugen, sparer i gennemsnit x
-          tons CO2 udslip pr. år, ved at
-          skifte til elbil</p>
+        <p>En bilejer, af fossilt brændstof, der kører
+            50 - 100 km om dagen, sparer i gennemsnit
+            x tons CO2 udslip pr. år, ved at skifte til elbil</p>
         <h2>Så meget kan du spare i drift:</h2>
-        <p>En bilejer, af fossilt brændstof,
-          der kører 200 - 300 km om
-          ugen, sparer i gennemsnit xx
-          kr pr. år, ved at skifte til elbil</p>
+        <p>En bilejer, af fossilt brændstof, der kører
+            50 - 100 km om dagen, sparer i gennemsnit
+            xx kr pr. år, ved at skifte til elbil</p>
       </div>
 
       <div class="mellemrum">
@@ -113,7 +110,13 @@
             <div class="videncard"><h5>Elbilen udleder mindre Co2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
                 <div class="svar">
-                <p class="videncardstekst">Indsæt tekst</p>
+                  <p class="videncardstekst">Rækkevidde angst er en af fordomme
+                  forbundet med køb af en elbil. Rækkevidden
+                  er en vigtig faktor for beslutningstageren.
+                  De elbiler som bliver produceret i dag, har
+                  en rækkevidde som gør det muligt for den
+                  gennemsnitlige dansker at køre til og fra
+                  arbejde i en uge på en enkel opladning.</p>
               </div>
               </div>
           </div>
@@ -145,11 +148,13 @@
               </div>
             </div>
 
+
             <div>
-              <div class="videncard"><h5>Batterilevetid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
+              <div class="videncard"><h5>Batterilevetid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-down"></i></h5></div>
               <div class="panel">
                 <div class="svar">
-                <p class="videncardstekst"> Indsæt tekst </p>
+                <p class="videncardstekst">Indsæt tekst</p>
+              </div>
               </div>
             </div>
       </div>
@@ -169,21 +174,21 @@
 <!-- (Mathilde start) -->
             <div class="tekno">
             <div class="teknocard">
-            <h5 class="teknoh5">Interessen for elbiler har overhalet pluginhybridbilerne. Høre mere til eventet og bliv klogere på forskellen her //link.....</h5> 
+            <h5 class="teknoh5">Foredrag om nyeste teknologi</h5>
             <p class="datotilevent">Tirsdag d. 6. juni 2023</p>
             <p class="tidtilevent">12:00 - 16:00 </p>
             <div class="starter">Eventet "Interessen for elbiler har overhalet pluginhybridbilerne" starter om:</div>
-          <div class="mathildegrid" onclick="skrivDato()" > <div class="mathildesbox"> <div id="countdownevent"> 
-          
-           
-         
+          <div class="mathildegrid" onclick="skrivDato()" > <div class="mathildesbox"> <div id="countdownevent">
+
+
+
     </div></div>
-          
-      
+
+
         </div>
 
-    
-    </div> 
+
+    </div>
 </div>
 
       <br>
@@ -193,7 +198,7 @@
       <div class="teknocard">
         <h5 class="teknoh5" >Forskere: Nyt elbil-batteri kan holde i 100 år</h5>
         <br>
-        <h6>Brødtekst</h6>
+        <h6>Nu kan elbil-ejere måske se frem til et batteri med en næsten uendelig levetid</h6>
       </div>
       </div>
 
@@ -204,9 +209,9 @@
       <div class="teknocard">
         <h5 class="teknoh5" >Ejere af elbiler får 200 nye muligheder for opladning</h5>
         <br>
-        <h6>Brødtekst</h6>
+        <h6>Med næsten 200 nye muligheder for opladning venter en lettere dagligdag for ejerne af elbiler i kommunen</h6>
       </div>
-      </div>
+
     </div>
 
       <br>
@@ -235,7 +240,7 @@
 
       <form id="contact-form">
 
-          <label for="navn">Fulde navn:</label>
+          <label for="name">Fulde navn:</label>
           <input type="text" id="name" name="name"><br><br>
 
           <label for="email">Email:</label>
@@ -245,11 +250,13 @@
           <input type="text" id="tlfnr" name="tlfnr"><br><br>
 
 
-          <label for="kontakt">Hvordan skal vi kontakte dig?</label>
+          <label for="konSelect">Hvordan skal vi kontakte dig?</label>
 
           <select id="konSelect" onchange="">
-          <option id="konOption"></option>
+          <option id="konOption">Valgmuligheder</option>
+
         </select>
+        <button type="button" name="button">Send</button>
       </form>
 <!-- (Johanna slut) -->
 
