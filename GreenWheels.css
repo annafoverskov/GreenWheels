@@ -223,6 +223,7 @@ p.footer{
     justify-content: center;
 }
 
+
 .udregnknap{
     width: 150px;
     background-color:#F8D7EE;
@@ -417,9 +418,27 @@ select{
 #contact-form{
     margin-top: 100px;
     margin-bottom: 100px;
+<<<<<<< Updated upstream
 }
 /* kontaktformular slutter her*/
 
+=======
+  }
+
+  .sendknap{
+    border: none;
+    border-radius: 10px;
+    background-color: #1F4ACD;
+    height: 30px;
+    width: 60px;
+    color: #F8D7EE;
+    box-shadow: 2px 2px 5px 2px rgb(129, 129, 129);
+    cursor: pointer;
+  }
+
+
+    /* kontaktformular slutter her*/
+>>>>>>> Stashed changes
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
