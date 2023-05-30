@@ -6,7 +6,7 @@
 
 body{
     font-family: kohinoor;
-    background-image: url(Images/GreenWheelsbaggrund.svg);
+    background-image: url(Images/GreenWheelsbaggrund2.svg);
     background-size: 100%;
 }
 
@@ -213,9 +213,6 @@ p.footer{
    background-color:#F8D7EE
 }
 
-
-
-
 /*UDREGN BESPARELSER*/
 
 .besparelsesboks{
@@ -223,6 +220,8 @@ p.footer{
     height: 300px;
     background-color: #F8D7EE;
     border-radius: 20px;
+    display: grid;
+    justify-content: center;
 }
 
 .bespargrid{
@@ -230,9 +229,9 @@ p.footer{
     justify-content: center;
 }
 
-a.udregnknap{
+.udregnknap{
     width: 150px;
-    background-color: #1F4ACD;
+    background-color:#F8D7EE;
     text-align: center;
     padding: 10px;
     font-size: 25px;
@@ -251,6 +250,18 @@ a.udregnknap{
     justify-content: center;
 }
 
+.streg{
+    height: auto;
+    width: 300px;
+    border-top: solid ;
+    border-color: black;
+}
+
+#streggrid{
+    display: grid; 
+    justify-content: center;
+}
+
 /*VIDEN*/
 .videncard{
     display: grid;
@@ -265,12 +276,10 @@ a.udregnknap{
 /*Mathilde*/
 /*Nyeste teknologi*/
 
-
-
 .teknocard{
     height: auto;
     background-color: #F8D7EE;
-    width: 600px;
+    width: 400px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 2px rgb(129, 129, 129);
     padding-bottom: 30px;
@@ -324,8 +333,6 @@ a.udregnknap{
     justify-content: center;
     padding-top: 20px;
 }
-
-
 
 /* PIL TIL TOP */
 
@@ -419,6 +426,7 @@ a.udregnknap{
 /*Computer version*/
 @media only screen and (min-width: 1000px){
 
+   
     .lilleboks{
         width: 600px;
         height: 200px;
