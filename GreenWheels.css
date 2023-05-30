@@ -49,7 +49,7 @@ footer{
 li{
     list-style: none;
     display: inline-block;
-    padding: 80px;
+    padding: 60px;
     font-size: 25px;
 }
 
@@ -418,12 +418,11 @@ select{
 #contact-form{
     margin-top: 100px;
     margin-bottom: 100px;
-<<<<<<< Updated upstream
-}
-/* kontaktformular slutter her*/
 
-=======
-  }
+}
+
+
+/* kontaktformular slutter her*/
 
   .sendknap{
     border: none;
@@ -435,10 +434,7 @@ select{
     box-shadow: 2px 2px 5px 2px rgb(129, 129, 129);
     cursor: pointer;
   }
-
-
     /* kontaktformular slutter her*/
->>>>>>> Stashed changes
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
@@ -455,7 +451,7 @@ select{
 }
 
 .NavComputer{
-    padding-left: 40px;
+    padding-left: 30px;
     display: inline-block;
     width: 100%;
 }
