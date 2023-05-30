@@ -20,15 +20,18 @@ html {
 }
 
 .lilleboks{
-    width: 600px;
-    height: 200px;
+    display: block;
+    justify-content: center;
     border-radius: 20px;
     background-color: #F8D7EE;
-    margin-left: 200px;
+    width: 300px;
+    height: 60px;
+    padding: 30px;
 }
 
 #lillefakta{
-    margin: 0px;
+    font-size: 10pt;
+    padding: 0px;
 }
 
 .forside{
@@ -63,7 +66,6 @@ a{
 
 a:hover{
     color:#EDB92E;
-    letter-spacing: 1px;
 }
 
 #NavComputer{
@@ -228,10 +230,9 @@ p.footer{
     justify-content: center;
 }
 
-.udregnknap{
+a.udregnknap{
     width: 150px;
     background-color: #1F4ACD;
-    color: #F8D7EE;
     text-align: center;
     padding: 10px;
     font-size: 25px;
@@ -417,6 +418,12 @@ p.footer{
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
+
+    .lilleboks{
+        width: 600px;
+        height: 200px;
+        margin-left: 200px;
+    }
 
     .topnav{
         display: none;
