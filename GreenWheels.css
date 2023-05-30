@@ -67,7 +67,7 @@ a:hover{
 }
 
 .topnav {
-    overflow: hidden;   
+    overflow: hidden;
     position: relative;
 }
 
@@ -201,6 +201,8 @@ p.footer{
     padding: 30px;
     margin: 0px;
     color:#1A5800;
+    max-width: 450px;
+
 }
 
 .videncard:hover{
@@ -252,7 +254,7 @@ p.footer{
 }
 
 #streggrid{
-    display: grid; 
+    display: grid;
     justify-content: center;
 }
 
@@ -282,48 +284,48 @@ p.footer{
 .tekno{
     display: grid;
     justify-content: center;
-} 
+}
 
-.datotilevent{ 
+.datotilevent{
     grid-column: 1;
     padding: 0;
     margin-left: 37px;
 }
 
-.tidtilevent{ 
+.tidtilevent{
     grid-column: 1;
-    padding: 0; 
+    padding: 0;
     margin-left: 37px;
 }
 
 
-.starter{ 
+.starter{
     grid-column: 1;
-    color: #EDB92E; 
+    color: #1F4ACD;
     margin-left: 37px;
 }
 
-#countdownevent{ 
-    font-size: 45px; 
+#countdownevent{
+    font-size: 45px;
     color:#F8D7EE;
     text-align:center
 
 }
 
-.mathildesbox{ 
+.mathildesbox{
     display: grid;
     justify-content: center;
-    background-color:#1F4ACD; 
+    background-color:#1F4ACD;
     width: 370px;
     height: 50px;
-    padding-top: 10px;  
+    padding-top: 10px;
     padding-bottom: 20px;
-    border-radius: 20px; 
-    
+    border-radius: 20px;
+
 }
 
 .mathildegrid{
-    display: grid; 
+    display: grid;
     justify-content: center;
     padding-top: 20px;
 }
@@ -349,6 +351,10 @@ p.footer{
     color: #F8D7EE;
   }
 
+.logo{
+  width: 150px;
+  height: 100px;
+}
 
 /*REVEAL effelt*/
 /*spørgsmål*/
@@ -358,6 +364,7 @@ p.footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.7em;
+    width: 450px;
   }
 
   .panel {
@@ -378,7 +385,7 @@ p.footer{
   align-items: center;
   }
 
-  /* Mine oplysninger starter her (Johanna)*/
+  /* kontaktformular starter her (Johanna)*/
 
   form {
     max-width: 700px;
@@ -408,6 +415,7 @@ p.footer{
     box-sizing: border-box;
     margin-bottom: 15px;
     border-radius: 5px;
+    box-shadow: inset 1px 1px 1px 1px rgb(129, 129, 129);
   }
 
 
@@ -415,12 +423,12 @@ p.footer{
     margin-top: 100px;
     margin-bottom: 100px;
   }
-    /* Mine oplysninger slutter her*/
+    /* kontaktformular slutter her*/
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
 
-   
+
     .lilleboks{
         width: 600px;
         height: 200px;
@@ -433,6 +441,8 @@ p.footer{
 
     .NavComputer{
         padding-left: 40px;
+        display: inline-block;
+        width: 100%;
     }
 
     h1{
@@ -457,28 +467,28 @@ p.footer{
         width: 1190px;
     }
 
-    .videncard{ 
+    .videncard{
 
         width: 550px;
     }
 
 /*Mathilde*/
     .teknocard{
-        width: 1190px; 
-        padding-left: 40px; 
-        margin-left: 100px;  
+        width: 1190px;
+        padding-left: 40px;
+        margin-left: 100px;
     }
-    
+
     .tekno{
     display: inline;
     padding-left: 40px;
-    } 
-    
-    #countdownevent{ 
-        font-size: 45px; 
+    }
+
+    #countdownevent{
+        font-size: 45px;
         color:#F8D7EE;
         text-align:center
-    
+
     }
 
 
