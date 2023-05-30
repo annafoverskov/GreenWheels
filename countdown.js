@@ -19,13 +19,13 @@ let countdown = setInterval(function() {
 
   // Når countdown er ovre, vil der står dette...
   if (dageIndtil < 0) {
-    clearInterval(countDown);
+    clearInterval(countdown);
     document.getElementById("countdownevent").innerHTML = "Eventet er igang!";
   }
 
   // Udskriv resultatet i et element med id="demo"
   else {
-    document.getElementById("countdownevent").innerHTML = dage + "d " + timer + "h "
+    document.getElementById("countdownevent").innerHTML = dage + "d " + dtmsArray[0] + " " + timer + "h "
     + minutter + "m " + sekunder + "s ";
   }
   
@@ -34,20 +34,22 @@ let countdown = setInterval(function() {
 
 
 
-let dtmsArray = ["Dage", "Timer", "Minutter","Sekunder"];
+let dtmsArray = [" ", "Timer", "Minutter","Sekunder"];
 
 for(let i = 0; i < dtmsArray.length; i++) {
-  document.getElementById(dtms).innerHTML += dtmsArray[i] + " ";
+  //document.getElementById("dtms").innerHTML += dtmsArray[i] + " ";
 }
 
 const events = {
   dag: "6. juli", 
   år: "2023", 
-  tid: "16:00"
+  tid: "13:00"
 };
 
 //onclick event 
 function skrivDato(){
+  alert()
+  clearInterval(countdown);
   document.getElementById("countdownevent").innerHTML = "Eventet er den <br>" + events.dag + " " + events.år + " kl." + events.tid; 
   document.getElementById("countdownevent").style.color = "#F8D7EE"; 
   document.getElementById("countdownevent").style.textAlign = "center"; 
