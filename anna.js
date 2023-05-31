@@ -1,4 +1,5 @@
 let acc = document.getElementsByClassName("videncard");
+
 let i;
 
 for (i = 0; i < acc.length; i++) {
