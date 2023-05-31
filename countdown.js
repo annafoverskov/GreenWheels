@@ -33,11 +33,9 @@ let countdown = setInterval(function() {
 
 
 
-
 let dtmsArray = [" ", "Timer", "Minutter","Sekunder"];
 
 for(let i = 0; i < dtmsArray.length; i++) {
-  //document.getElementById("dtms").innerHTML += dtmsArray[i] + " ";
 }
 
 const events = {
