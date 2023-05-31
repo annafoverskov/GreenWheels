@@ -20,6 +20,6 @@ location.replace('index.html');
     else
     location.replace('index.html')
   }
-document.getElementById("konSelect").selectedIndex = 0;
+
 
 //kontaktform starter her
