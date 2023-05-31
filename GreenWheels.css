@@ -10,6 +10,40 @@ body{
     background-size: 100%;
 }
 
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #1F4ACD;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #1F4ACD;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #A1D0FF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background:#1F4ACD;
+  }
+
+  input[type=range]:focus::-ms-fill-lower {
+    background: #1F4ACD;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #1F4ACD;
+  }
+
 html {
     scroll-behavior: smooth;
 }
@@ -49,7 +83,7 @@ footer{
 li{
     list-style: none;
     display: inline-block;
-    padding: 80px;
+    padding: 60px;
     font-size: 25px;
 }
 
@@ -247,14 +281,12 @@ p.footer{
 
 .streg{
     height: auto;
-    width: 300px;
-    border-top: solid ;
-    border-color: black;
+    width: 600px;
 }
 
 #streggrid{
     display: grid;
-    justify-content: center;
+    justify-content: center
 }
 
 /*VIDEN*/
@@ -418,12 +450,11 @@ select{
 #contact-form{
     margin-top: 100px;
     margin-bottom: 100px;
-<<<<<<< Updated upstream
-}
-/* kontaktformular slutter her*/
 
-=======
-  }
+}
+
+
+/* kontaktformular slutter her*/
 
   .sendknap{
     border: none;
@@ -435,10 +466,7 @@ select{
     box-shadow: 2px 2px 5px 2px rgb(129, 129, 129);
     cursor: pointer;
   }
-
-
     /* kontaktformular slutter her*/
->>>>>>> Stashed changes
 
 /*Computer version*/
 @media only screen and (min-width: 1000px){
@@ -455,7 +483,7 @@ select{
 }
 
 .NavComputer{
-    padding-left: 40px;
+    padding-left: 30px;
     display: inline-block;
     width: 100%;
 }
